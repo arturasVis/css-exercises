@@ -5,7 +5,8 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
-
+  display: flex;
+  flex-direction: column;
 }
 
 img {
@@ -38,11 +39,6 @@ ul{
 .header, .footer{
   display: flex;
   justify-content: space-between;
-  height: 5vh;
-  width: auto;
-  flex-shrink: 0;
-  flex-grow: 1;
-  flex-basis: auto;
 }
 .footer{
   background-color: #EEEEEE;
@@ -52,9 +48,8 @@ ul{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 90vh;
-  width: auto;
-  flex-shrink: 1;
+  gap: 16px;
+  flex:1;
 }
 
 .left-links, .right-links{
