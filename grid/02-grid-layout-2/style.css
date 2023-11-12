@@ -9,6 +9,9 @@ html {
   height: 100%;
   padding: 16px;
   box-sizing: border-box;
+  display: grid;
+  grid-template: 10vh 10vh 60vh 10vh/30vw 70vw;
+  gap:25px
 }
 
 .container div {
